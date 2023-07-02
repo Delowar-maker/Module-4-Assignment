@@ -1,0 +1,12 @@
+body {
+  padding: 20px;
+}
+
+#total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+}

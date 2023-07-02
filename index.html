@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Products</h2>
+          <ul id="products" class="list-group"></ul>
+        </div>
+        <div class="col">
+          <h2>Shopping Cart</h2>
+          <ul id="cart" class="list-group"></ul>
+          <p id="total">Total: $0</p>
+          <button id="clear-cart" class="btn btn-danger">Remove All</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="product.js"></script>
+    <script type="module" src="cart.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
